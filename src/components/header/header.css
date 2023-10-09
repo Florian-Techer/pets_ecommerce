@@ -1,0 +1,49 @@
+header {
+  font-family: "kefa";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #7ca7a8;
+  padding: 1rem 2rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 35px;
+}
+
+header ul a:nth-child(1) {
+  color: #2c6363;
+}
+
+header ul a:nth-child(2) {
+  color: #a8e2e3;
+}
+
+.logo {
+  width: 60px;
+}
+
+.header_icons_container {
+  display: flex;
+}
+
+.header_icon_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.icon {
+  width: 40px;
+}
