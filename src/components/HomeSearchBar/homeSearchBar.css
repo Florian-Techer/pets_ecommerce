@@ -1,0 +1,27 @@
+.search_input_container {
+  margin-top: 5%;
+  width: 25%;
+  display: flex;
+}
+
+.search_input {
+  border-radius: 5px 0 0 5px;
+  padding: 0.6rem;
+  width: 90%;
+  border: none;
+  box-shadow: inset 0px 0px 15px -10px #2c6363;
+  background-color: rgba(168, 226, 227, 0.18);
+}
+
+.search_icon_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7ca7a8;
+  border-radius: 0 5px 5px 0;
+  width: 10%;
+}
+
+.search_icon {
+  width: 50%;
+}
